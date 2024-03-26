@@ -22,7 +22,7 @@ var S = {
     if (i !== -1) {
       S.UI.simulate(decodeURI(action).substring(i + 3));
     } else {
-      S.UI.simulate("|#countdown 3||XXX|lxr祝你|生日快乐|❤|#time");
+      S.UI.simulate("|#countdown 3||PYT|lxr祝你|生日快乐|🎂|#time");
     }
 
     S.Drawing.loop(function () {
